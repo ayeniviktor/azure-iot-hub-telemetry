@@ -1,7 +1,7 @@
 # azure-iot-hub-telemetry
 An end-to-end Azure IoT pipeline capturing data from a Raspberry Pi Simulator to an Azure Storage Account and virtualized on Excel
 
-Initial project documentation
+
 
 # Getting Started with Azure IoT Hub: End-to-End Telemetry Pipeline
 
