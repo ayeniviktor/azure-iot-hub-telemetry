@@ -31,6 +31,8 @@ An end-to-end Azure IoT pipeline capturing data from a Raspberry Pi Simulator to
   ## Step-by-Step Implementation
 
     ### Step 1: Azure IoT Hub Provisioning
+    <img width="1366" height="721" alt="Screenshot 2026-06-12 003350" src="https://github.com/user-attachments/assets/54ac4dd3-aa79-4aea-821b-368fb1418fff" />
+
       * I created and configured a scalable **Azure IoT Hub** instance within the Azure Portal.
       * I set up the pricing tiers and resource groups to ensure optimized resource management.
 
