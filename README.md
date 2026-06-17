@@ -33,39 +33,56 @@ An end-to-end Azure IoT pipeline capturing data from a Raspberry Pi Simulator to
 
     ### Step 1: Azure IoT Hub Provisioning
       * I created and configured a scalable **Azure IoT Hub** instance within the Azure Portal.
+      
       * I set up the pricing tiers and resource groups to ensure optimized resource management.
-<img width="1366" height="721" alt="Screenshot 2026-06-12 003458" src="https://github.com/user-attachments/assets/e59a1f9d-6061-4d25-838b-ea4484f7360e" />
+      
+<img width="670" height="280" alt="Screenshot 2026-06-12 003458" src="https://github.com/user-attachments/assets/e59a1f9d-6061-4d25-838b-ea4484f7360e" />
 
 
     ### Step 2: Device Registration & Simulation
       * I registered a unique device identity inside the IoT Hub to obtain a secure primary connection strings.
-  <img width="1366" height="721" alt="Screenshot 2026-06-12 004120" src="https://github.com/user-attachments/assets/c2f5e198-7f4c-431f-b190-1eba74f62854" />
+      
+  <img width="680" height="300" alt="Screenshot 2026-06-12 004120" src="https://github.com/user-attachments/assets/c2f5e198-7f4c-431f-b190-1eba74f62854" />
+  
       * I configured the **Raspberry Pi Web Simulator** using the device connection string.  
+      
       (LINK to the Raspberry Pi Web Simulator : https://azure-samples.github.io/raspberry-pi-web-simulator/)
-      <img width="1361" height="679" alt="Screenshot 2026-06-17 165712" src="https://github.com/user-attachments/assets/b1edd16a-ff0c-4e48-9122-b6c336cb1225" />
+      
+  <img width="687" height="280" alt="Screenshot 2026-06-17 165712" src="https://github.com/user-attachments/assets/b1edd16a-ff0c-4e48-9122-b6c336cb1225" />
+      
       * Then I successfully initiated a live stream of Temperature and Humidity telemetry payloads from the simulator to the Azure cloud.
 
       
     ### Step 3: Configuring Cloud Storage
       * I provisioned an **Azure Storage Account** with a dedicated container.
-  <img width="1366" height="721" alt="Screenshot 2026-06-12 024946" src="https://github.com/user-attachments/assets/c346ff5d-1902-466b-a68c-e479d897e478" />
+      
+  <img width="680" height="290" alt="Screenshot 2026-06-12 024946" src="https://github.com/user-attachments/assets/c346ff5d-1902-466b-a68c-e479d897e478" />
+  
       * This container acted as the long-term historical archive ("cold storage") for the unstructured data packets flowing from the IoT Hub.
-  <img width="1366" height="721" alt="Screenshot 2026-06-12 025517" src="https://github.com/user-attachments/assets/b2360fb9-59dd-4a99-8dff-1ed85d12e908" />
+      
+  <img width="660" height="260" alt="Screenshot 2026-06-12 025517" src="https://github.com/user-attachments/assets/b2360fb9-59dd-4a99-8dff-1ed85d12e908" />
 
 
     ### Step 4: Stream Analytics & Data Transformation
       * I developed an **Azure Stream Analytics Job**, which made it easy to set up real-time analytic computations on data streaming from                the IoT device, to bridge the real-time input stream with our target destinations.
-  <img width="1366" height="721" alt="Screenshot 2026-06-12 015021" src="https://github.com/user-attachments/assets/8dfd3b20-91b4-4dfb-9a07-0b4c41680eea" />
+      
+  <img width="700" height="310" alt="Screenshot 2026-06-12 015021" src="https://github.com/user-attachments/assets/8dfd3b20-91b4-4dfb-9a07-0b4c41680eea" />
+  
       * I configured the IoT Hub as the input stream and mapped an output path to format the incoming JSON data directly into an accessible **CSV        file**.
+      
       * Then I started the streaming job to process the data actively.
-<img width="1366" height="721" alt="Screenshot 2026-06-12 022317" src="https://github.com/user-attachments/assets/f5c71637-bc58-4fb2-b670-c3eb3757c13c" />
+      
+<img width="750" height="350" alt="Screenshot 2026-06-12 022317" src="https://github.com/user-attachments/assets/f5c71637-bc58-4fb2-b670-c3eb3757c13c" />
 
       
     ### Step 5: Data Analysis & Visualization
       * I exported the processed CSV data into **Microsoft Excel**.
-  <img width="1366" height="721" alt="Screenshot 2026-06-12 031455" src="https://github.com/user-attachments/assets/5d7819c5-5f3d-45cc-8af9-8ad427f981c8" />
+      
+  <img width="697" height="297" alt="Screenshot 2026-06-12 031455" src="https://github.com/user-attachments/assets/5d7819c5-5f3d-45cc-8af9-8ad427f981c8" />
+  
       * I converted the processed data into **Line Charts** to track continuous variable trends over time (Temperature spikes) and **Area Charts**       to visualize the volume and scope of the environmental metrics.
-<img width="1366" height="721" alt="Screenshot 2026-06-12 032559" src="https://github.com/user-attachments/assets/613b9f25-47b3-4efa-a51f-a837d579b102" />
+      
+<img width="800" height="400" alt="Screenshot 2026-06-12 032559" src="https://github.com/user-attachments/assets/613b9f25-47b3-4efa-a51f-a837d579b102" />
 
 
 
