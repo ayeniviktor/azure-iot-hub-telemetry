@@ -56,7 +56,7 @@ Initial project documentation
 ---
 
 
-```## Key Takeaways & Skills Learned
+### Key Takeaways & Skills Learned
 
     * **Cloud Architecture:** I gained hands-on experience routing telemetry data smoothly across between different cloud infrastructure.
     * **IoT Security:** I learnt how to safely register devices and manage individual connection tokens.
@@ -67,5 +67,5 @@ Initial project documentation
 
 ---
 
-### License
-This project is for portfolio. Feel free to review the code and fork the repository for personal testing. 
+  ### License
+    This project is for portfolio. Feel free to review the code and fork the repository for personal testing. 
