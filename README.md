@@ -62,7 +62,7 @@ Initial project documentation
     * **Data Pipelines:** I developed a practical understanding of Extract, Transform, and Load (ETL) principles using Stream Analytics.
 
 
-```## Skills Learned
+``## Skills Learned
 
 Internet of Things (IoT) | Data Visualization | Data Pipelines | Cloud Storage | Interactive Data Visualization | Data Storage Technologies
 
