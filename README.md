@@ -55,6 +55,7 @@ Initial project documentation
 
 ---
 
+
 ```## Key Takeaways & Skills Learned
 
     * **Cloud Architecture:** I gained hands-on experience routing telemetry data smoothly across between different cloud infrastructure.
@@ -62,10 +63,9 @@ Initial project documentation
     * **Data Pipelines:** I developed a practical understanding of Extract, Transform, and Load (ETL) principles using Stream Analytics.
 
 
-``## Skills Learned
+    Internet of Things (IoT) | Data Visualization | Data Pipelines | Cloud Storage | Interactive Data Visualization | Data Storage Technologies
 
-Internet of Things (IoT) | Data Visualization | Data Pipelines | Cloud Storage | Interactive Data Visualization | Data Storage Technologies
+---
 
 ### License
-
 This project is for portfolio. Feel free to review the code and fork the repository for personal testing. 
